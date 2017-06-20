@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #535b60;
+    background: #222;
+}
+
+.toon {
+    color: #fff;
+    text-align: center;
+}
+
+.name {
+    font-size: 120px;
+    line-height: 150px;
+    margin-top: 115px;
+    font-weight: bold;
+}
+
+.desc {
+    font-size: 60px;
+    line-height: 70px;
+    margin-top: 15px;
+}
