@@ -5,4 +5,4 @@ git stash
 git checkout site
 for f in `find`; do git rm -rf $f; done
 tar zxvf pack.tgz
-for f in `tar tf pack.tgz`; do git add $f; done
+for f in `tar tf pack.tgz`; do git add -f $f; done
