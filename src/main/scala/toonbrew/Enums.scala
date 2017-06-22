@@ -34,7 +34,7 @@ object Enums {
   case object Wizard extends Clazz
 
   sealed trait City
-  case object AkAnon extends City
+  case object AkAnon extends City { override def toString = "Ak'Anon"}
   case object Cabilis extends City
   case object Erudin extends City
   case object Felwithe extends City
@@ -59,7 +59,7 @@ object Enums {
   case object BrellSerilis extends Belief { override def toString = "Brell Serilis"}
   case object Bristlebane extends Belief
   case object CazicThule extends Belief { override def toString = "Cazic Thule"}
-  case object ErollisiMarr extends Belief { override def toString = "Erollisis Marr"}
+  case object ErollisiMarr extends Belief { override def toString = "Erollisi Marr"}
   case object Innoruuk extends Belief
   case object Karana extends Belief
   case object MithanielMarr extends Belief { override def toString = "Mithaniel Marr"}
@@ -71,6 +71,5 @@ object Enums {
   case object TheTribunal extends Belief { override def toString = "The Tribunal"}
   case object Tunare extends Belief
   case object Veeshan extends Belief
-
 
 }

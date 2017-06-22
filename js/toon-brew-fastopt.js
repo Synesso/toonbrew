@@ -7159,7 +7159,7 @@ $c_Ltoonbrew_Enums$AkAnon$.prototype.productElement__I__O = (function(x$1) {
   throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
 });
 $c_Ltoonbrew_Enums$AkAnon$.prototype.toString__T = (function() {
-  return "AkAnon"
+  return "Ak'Anon"
 });
 $c_Ltoonbrew_Enums$AkAnon$.prototype.hashCode__I = (function() {
   return 1961757238
@@ -7822,7 +7822,7 @@ $c_Ltoonbrew_Enums$ErollisiMarr$.prototype.productElement__I__O = (function(x$1)
   throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
 });
 $c_Ltoonbrew_Enums$ErollisiMarr$.prototype.toString__T = (function() {
-  return "Erollisis Marr"
+  return "Erollisi Marr"
 });
 $c_Ltoonbrew_Enums$ErollisiMarr$.prototype.hashCode__I = (function() {
   return 688306033
