@@ -56,17 +56,19 @@ object Enums {
   sealed trait Belief
   case object Agnostic extends Belief
   case object Bertoxxulous extends Belief
-  case object BrellSerilis extends Belief
+  case object BrellSerilis extends Belief { override def toString = "Brell Serilis"}
   case object Bristlebane extends Belief
-  case object ErollisiMarr extends Belief
+  case object CazicThule extends Belief { override def toString = "Cazic Thule"}
+  case object ErollisiMarr extends Belief { override def toString = "Erollisis Marr"}
+  case object Innoruuk extends Belief
   case object Karana extends Belief
-  case object MithanealMarr extends Belief
+  case object MithanielMarr extends Belief { override def toString = "Mithaniel Marr"}
   case object Prexus extends Belief
   case object Quellious extends Belief
-  case object RallosZek extends Belief
-  case object RodcetNife extends Belief
-  case object SolusekRo extends Belief
-  case object TheTribunal extends Belief
+  case object RallosZek extends Belief { override def toString = "Rallos Zek"}
+  case object RodcetNife extends Belief { override def toString = "Rodcet Nife"}
+  case object SolusekRo extends Belief { override def toString = "Solusek Ro"}
+  case object TheTribunal extends Belief { override def toString = "The Tribunal"}
   case object Tunare extends Belief
   case object Veeshan extends Belief
 

@@ -2,12 +2,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     line-height: 20px;
-    color: #535b60;
+    color: #fff;
     background: #222;
 }
 
 .toon {
-    color: #fff;
     text-align: center;
 }
 
@@ -22,4 +21,32 @@ body {
     font-size: 60px;
     line-height: 70px;
     margin-top: 15px;
+}
+
+#brew-toon-button {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#brew-toon-button button {
+    font-size: 14px;
+    color: #fff;
+    background:url(../img/button-up.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    width: 300px;
+    height: 60px;
+    background-size: 300px 60px;
+    background-repeat: no-repeat;
+}
+
+#brew-toon-button button:active {
+    color: yellow;
+    background:url(../img/button-down.png);
+    background-size: 300px 60px;
+    background-repeat: no-repeat;
+}
+
+#brew-toon-button button:hover {
+    color: yellow;
 }
